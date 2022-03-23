@@ -1,0 +1,32 @@
+#container
+{
+	width: 70rem;
+	background-color: beige;
+}
+#header
+{
+	background-color: burlywood;
+	width: 70rem;
+	text-align: center;
+	font-size: 3rem;
+}
+.textblock
+{
+	background-color: antiquewhite;
+}
+.header2
+{
+	background-color: bisque;
+	text-align: center;
+	width: 70rem;
+	font-size: 2.5rem;
+}
+.original
+{
+	text-align: center;
+	font-size: 2rem;
+}
+.text
+{
+	font-size: 1.5rem;
+}
