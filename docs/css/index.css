@@ -11,9 +11,15 @@ body
 	font-size: 1.5rem;
 	color: darkgoldenrod;
 	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
 }
 .footer
 {
 	font-size: 0.75rem;
 	margin-bottom: 0;
+}
+.link1
+{
+	
 }
