@@ -35,9 +35,10 @@ body
 .paragraph_heading1
 {
 	color: ivory;
+	text-align: left;
+	font-size: 1.1rem;
 }
 .url_table
 {
 	color: firebrick;
-	
 }
