@@ -1,6 +1,7 @@
 body
 {
 	background-color: #000000;
+	color: white;
 }
 .background
 {
@@ -30,4 +31,13 @@ body
 .line1
 {
 	color: maroon;
+}
+.paragraph_heading1
+{
+	color: ivory;
+}
+.url_table
+{
+	color: firebrick;
+	
 }
