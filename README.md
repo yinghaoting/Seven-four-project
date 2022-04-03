@@ -21,8 +21,6 @@
 
 本储存库也可以用于练习，欢迎和我一样的萌新参与！~~毕竟这种储存库，就算崩了，我也不会太在意~~
 
-因为本人不是太会用GitHub，有兴趣加入的大佬请发送邮件至yinghaoting2009@outlook.com，谢谢！
-
 ***
 The most comprehensive record established for my class
 
