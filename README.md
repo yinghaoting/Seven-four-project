@@ -6,7 +6,7 @@
 
 ***
 本储存库正在建设中，欢迎各位大佬帮助！
-我们已经在制作网站页面，可以在<https://yinghaoting.github.io/test2>查看详情
+我们已经在制作网站页面，可以在<https://yinghaoting.github.io/Seven-four-project/>查看详情
 
 我们已有的条件
  1. 部分比较懂程序的人（比如说我），可以进行初步的web和应用程序编写，但是没有做项目的经验
