@@ -6,10 +6,12 @@ body
 .background
 {
 	background-image: url(../img/lightbackground.png);
+	width: auto;
+	height: auto;
 }
 #container
 {
-	width: 125rem;
+	width: 62.5rem;
 	background-color: #000000;
 	color: white;
 }
