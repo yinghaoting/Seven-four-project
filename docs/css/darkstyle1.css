@@ -5,7 +5,13 @@ body
 }
 .background
 {
+	background-image: url(../img/lightbackground.png);
+}
+#container
+{
+	width: 125rem;
 	background-color: #000000;
+	color: white;
 }
 .maintitle1
 {
