@@ -2,12 +2,37 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>跳转页</title>
 	</head>
-	<body>
+	<body class="container">
+		<h1 id="title" class="maintitle1"></h1>
+		<p class="paragraph_heading1" id="notice"></p>
+		<p class="paragraph_heading1" id="jump"></p>
+		<button type="button" onclick="jump()">直接跳转</button>
 		<script type="text/javascript">
-			alert(hello);
-			window.location.href=hello;
+			var url = window.location.search;
+			var url_obj = new URLSearchParams(url);
+			if(url_obj.get('filename')!=null)
+			{
+				var url_jump = 'https://yinghaoting.github.io/Seven-four-project/' + url_obj.get('folder') + '/' + url_obj.get('name') + '.' + url_obj.get('type');
+				document.title = '跳转页 | ' + url_obj.get('filename');
+				document.getElementById("title").innerHTML = url_obj.get('filename');
+				document.getElementById('notice').innerHTML = "暂无HTML版本，即将跳转至" + url_obj.get('typename') + "版本";
+				function jump()
+				{
+					window.location.href=url_jump;
+				}
+				x=3;
+				document.getElementById('jump').innerHTML = "将在" + x + "秒后跳转";
+				setInterval(function()
+				{
+					document.getElementById('jump').innerHTML = "将在" + --x + "秒后跳转";
+					if(x==0)
+					{
+						window.location.href=url_jump;
+					}
+				},1000);
+			}
 		</script>
 	</body>
 </html>
