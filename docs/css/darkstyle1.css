@@ -12,6 +12,8 @@ body
 	border-color: maroon;
 	margin: 1rem;
 	padding: 1rem;
+	word-wrap:break-word;
+	word-break:break-all;
 }
 .paragraph_container_left
 {
@@ -23,6 +25,8 @@ body
 	display: inline-block;
 	margin: 1rem;
 	padding: 1rem;
+	word-wrap:break-word;
+	word-break:break-all;
 }
 .paragraph_container_right
 {
@@ -34,6 +38,8 @@ body
 	display: inline-block;
 	margin: 1rem;
 	padding: 1rem;
+	word-wrap:break-word;
+	word-break:break-all;
 }
 .background
 {
