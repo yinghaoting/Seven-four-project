@@ -15,23 +15,8 @@ body
 	word-wrap:break-word;
 	word-break:break-all;
 }
-.paragraph_container_left
+.paragraph_container_inline
 {
-	margin-left: 1rem;
-	margin-right: auto;
-	border: 2px;
-	border: maroon;
-	border-color: maroon;
-	display: inline-block;
-	margin: 1rem;
-	padding: 1rem;
-	word-wrap:break-word;
-	word-break:break-all;
-}
-.paragraph_container_right
-{
-	margin-left: auto;
-	margin-right: 1rem;
 	border: 2px;
 	border: maroon;
 	border-color: maroon;
