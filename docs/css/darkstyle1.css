@@ -3,6 +3,12 @@ body
 	background-color: #000000;
 	color: white;
 }
+.paragraph_container
+{
+	border: 2px;
+	border-color: maroon;
+	display: inline-block;
+}
 .background
 {
 	background-image: url(../img/lightbackground.png);
@@ -11,7 +17,8 @@ body
 }
 .container
 {
-	width: 62.5rem;
+	margin: 1rem;
+	padding: 1rem;
 	background-color: #000000;
 	color: white;
 	margin-left: auto;
