@@ -46,19 +46,20 @@ hide_block();
 hide_fixed_foter();
 show_doc_foter();
 var footer_height=inner_doc_footer.scrollHeight;
+var gap=2;
 window.addEventListener("scroll",function(){
 	if(inner_doc_footer.style.display!="none")
 	{
 		//alert(inner_doc_footer.offsetTop+footer_height);
 		//alert(doct.clientHeight+doct.scrollTop+1);
-		if(inner_doc_footer.offsetTop+footer_height<=doct.clientHeight+doct.scrollTop+2){
+		if(inner_doc_footer.offsetTop+footer_height<=doct.clientHeight+doct.scrollTop+gap){
 			//此处if表达式最后一数字根据屏幕大小不同改变。不同大小下不同数字动态效果最优。考虑做成动态
 			show_block();
 			show_fixed_footer();
 			hide_doc_footer();
 		}
 	}else{
-		if(block.offsetTop>doct.clientHeight+doct.scrollTop-inner_doc_footer.offsetHeight-footer_height){
+		if(block.offsetTop>doct.clientHeight+doct.scrollTop-inner_doc_footer.offsetHeight-footer_height+gap-1){
 			//alert(block.offsetTop+inner_doc_footer.offsetHeight);
 			//alert(doct.clientHeight+doct.scrollTop);
 			hide_block();
