@@ -1,0 +1,89 @@
+body
+{
+	/*盒模型*/
+	margin: 0%;
+}
+.FooterBox
+{
+	/*flex弹性盒子*/
+	display: flex;
+	flex-direction: row;
+}
+.HeaderBox
+{
+	/*flex弹性盒子*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.HeaderTitle
+{
+	/*盒模型*/
+	margin-left: 7%;
+	margin-right: 7%;
+}
+.HeaderTitleContainer
+{
+	/*盒模型*/
+	margin: 1%;
+	/*弹性盒子*/
+	flex-grow: 1;
+}
+.Logo
+{
+	/*盒模型*/
+	margin: 1%;
+	padding: 1%;
+	width: 10rem;
+	/*弹性盒子*/
+	flex-shrink: 0;
+	background-color: cornsilk;
+	text-align: center;
+	font-weight: 700;
+	color: #33338B;
+	border-style:solid;
+	border-color:#33338B;
+}
+.MainDocBox
+{
+	/*弹性盒子*/
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+.MainDocContainer
+{
+	/*盒模型*/
+	margin-top: 1.5%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 10%;
+	padding: 1.5%;
+}
+.MainFixedContainer
+{
+	/*fixed位置且占满页面*/
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/*flex弹性盒子*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.WindowBox
+{
+	/*flex弹性盒子*/
+	display: flex;
+	flex-direction: column;
+}
+.WindowContainer
+{
+	/*盒模型*/
+	padding: 0;
+	margin: 0;
+}

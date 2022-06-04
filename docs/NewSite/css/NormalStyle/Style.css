@@ -1,0 +1,49 @@
+body
+{
+	/*文字基础设置*/
+	color: white;
+	/*背景色*/
+	background-color: black;
+	/*背景图片*/
+	background-image: url('../../img/bkimg/dark2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.DocTitle
+{
+	text-align: center;
+}
+.FootContainer
+{
+	color: black;
+	background-color: #DDDDDD;
+	font-size: 0.8rem;
+}
+.HeadContainer
+{
+	/*背景属性*/
+	background-color: #EFE8CC;
+	/*文字属性*/
+	color: #333333;
+}
+.HeaderTitle
+{
+	/*边框属性*/
+	border-bottom-style: solid;
+	border-left-color: #000055;
+	/*文字属性*/
+	color: #000055;
+	text-align: center;
+	font-size: 120%;
+}
+.MainDocContainer
+{
+	/*文字属性*/
+	color: black;
+	/*背景属性*/
+	background-color: rgba(255, 255, 238, 0.7);
+	/*边框属性*/
+	border-radius: 3px;
+}

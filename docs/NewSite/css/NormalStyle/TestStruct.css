@@ -1,0 +1,99 @@
+body
+{
+	border-style: solid;
+	border-color: #FF0000;
+	background-color: #660000;
+}
+.DocTitle
+{
+	border-style: solid;
+	border-color: #FF0000;
+	background-color: #660000;
+}
+.FootContainer
+{
+	border-style: solid;
+	border-color: #FF0000;
+	/*
+	background-color: #660000;
+	*/
+}
+.FooterBox
+{
+	border-style: solid;
+	border-color: #00FF00;
+	/*
+	background-color: #006600;
+	*/
+}
+.HeadContainer
+{
+	border-style: solid;
+	border-color: #FF0000;
+	/*
+	background-color: #660000;
+	*/
+}
+.HeaderBox
+{
+	border-style: solid;
+	border-color: #00FF00;
+	/*
+	background-color: #006600;
+	*/
+}
+.HeaderTitle
+{
+	border-style: solid;
+	border-color: #FF0000;
+	background-color: #660000;
+}
+.HeaderTitleContainer
+{
+	border-style: solid;
+	border-color: #0000FF;
+	background-color: #000066;
+}
+.Logo
+{
+	/*
+	border-style: solid;
+	border-color: #0000FF;
+	background-color: #000066;
+	*/
+}
+.MainDocBox
+{
+	border-style: solid;
+	border-color: #00FF00;
+	background-color: #006600;
+}
+.MainDocContainer
+{
+	border-style: solid;
+	border-color: #0000FF;
+	/*
+	background-color: #000066;
+	*/
+}
+.MainFixedContainer
+{
+	/*
+	border-style: solid;
+	border-color: #0000FF;
+	/*
+	background-color: #000066;
+	*/
+}
+.WindowBox
+{
+	border-style: solid;
+	border-color: #0000FF;
+	background-color: #000066;
+}
+.WindowContainer
+{
+	border-style: solid;
+	border-color: #00FF00;
+	background-color: #006600;
+}
