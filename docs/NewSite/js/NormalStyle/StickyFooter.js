@@ -49,7 +49,10 @@ var footer_height=inner_doc_footer.scrollHeight;
 window.addEventListener("scroll",function(){
 	if(inner_doc_footer.style.display!="none")
 	{
-		if(inner_doc_footer.offsetTop+footer_height<doct.clientHeight+doct.scrollTop+0.5){
+		//alert(inner_doc_footer.offsetTop+footer_height);
+		//alert(doct.clientHeight+doct.scrollTop+1);
+		if(inner_doc_footer.offsetTop+footer_height<=doct.clientHeight+doct.scrollTop+2){
+			//此处if表达式最后一数字根据屏幕大小不同改变。不同大小下不同数字动态效果最优。考虑做成动态
 			show_block();
 			show_fixed_footer();
 			hide_doc_footer();
