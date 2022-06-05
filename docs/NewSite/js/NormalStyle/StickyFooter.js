@@ -36,12 +36,15 @@ function show_block(){
 }
 function test()
 {
+	alert("Test");
 	block.style.borderStyle="solid";
-	block.style.borderColor="#00FF00"
+	block.style.borderColor="#0000FF"
 	inner_doc_footer.style.borderStyle="solid";
-	inner_doc_footer.style.borderColor="#00FF00";
+	inner_doc_footer.style.borderColor="#FF0000";
+	fixed_footer.style.borderStyle="solid";
+	fixed_footer.style.borderColor="#00FF00";
 }
-//test();
+// test();
 var footer_height=inner_doc_footer.scrollHeight;
 var gap=2;
 hide_fixed_foter();
