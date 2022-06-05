@@ -5,7 +5,7 @@ body
 	/*背景色*/
 	background-color: black;
 	/*背景图片*/
-	background-image: url('../../img/bkimg/dark2.jpg');
+	background-image: url('../../img/NormalStyle/RandomBKImg/1.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -43,7 +43,7 @@ body
 	/*文字属性*/
 	color: black;
 	/*背景属性*/
-	background-color: rgba(255, 255, 238, 0.7);
+	background-color: rgba(255, 255, 238, 0.775);
 	/*边框属性*/
 	border-radius: 3px;
 }
