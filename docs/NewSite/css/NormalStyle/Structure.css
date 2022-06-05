@@ -52,13 +52,13 @@ body
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 .MainDocContainer
 {
 	/*盒模型*/
 	margin-top: 1.5%;
-	margin-left: 3%;
-	margin-right: 3%;
+	width: 60%;
 	margin-bottom: 10%;
 	padding: 1.5%;
 }
