@@ -1,4 +1,4 @@
-var img_size=5;
+var img_size=385;
 var bkimg_arr=[];
 var base_src="../img/NormalStyle/RandomBKImg/GIFImg/";
 for(var i=1;i<=img_size;i++){
