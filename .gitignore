@@ -1,2 +1,3 @@
 # 将较大且不在/docs中的文件储存为largedat后缀名，最后一位数字递增，上传后可在本地删除而不影响储存库
 *.largedat0
+*.largedat1
